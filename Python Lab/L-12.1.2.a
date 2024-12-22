@@ -1,0 +1,6 @@
+import pandas as pd
+list = ["Apple", "Ball","Cat", "Dog","Egg"]
+x = pd.Series(list, index = ["A", "B", "C", "D","E"])
+print("First Element = ",x.iloc[0])
+print("Fifth Element = ",x.iloc[4])
+print("Elemnt from index 1 to 3 = \n",x.iloc[1:4])
